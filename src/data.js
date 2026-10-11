@@ -1,5 +1,5 @@
 // Content grounded in the restaurant's public pages and TheFork, checked 2026-10-11.
-// Image URLs remain on their original hosts in this prototype. Permission is required before commercial publication.
+// Display assets are served locally; original public sources are retained below for attribution.
 export const CONTACT = {
   name: 'La Cantine Portugaise',
   address: '57 Quai Magellan, 44000 Nantes, France',

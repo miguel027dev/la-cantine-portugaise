@@ -1,0 +1,77 @@
+export const LANGUAGES=[
+  {id:'fr',code:'FR',name:'Français',region:'France'},
+  {id:'en',code:'EN',name:'English',region:'English'},
+  {id:'pt-PT',code:'PT',name:'Português',region:'Portugal'},
+];
+
+export const translations={
+ fr:{
+  title:'La Cantine Portugaise — Saveurs du Portugal à Nantes',description:'La Cantine Portugaise à Nantes — les saveurs du Portugal, au bord de la Loire. 57 Quai Magellan.',
+  book:'Réserver une table',homeLabel:'La Cantine Portugaise, accueil',navLabel:'Navigation principale',mobileNav:'Navigation mobile',nav:['La maison','Les assiettes','La carte','Nous trouver'],openMenu:'Ouvrir le menu',closeMenu:'Fermer le menu',skip:'Aller au contenu',
+  languageLabel:'Changer de langue',languageTitle:'Choisissez votre langue',languageHint:'Le Portugal, dans votre langue.',languageChanged:'Langue du site : français.',
+  heroTitle:['Le Portugal.','À votre table.'],heroIntro:['Francesinha, morue et pastéis de nata.','Les saveurs du Portugal, au bord de la Loire.'],explore:'Explorer la carte',heroAlt:'Francesinha portugaise, photographie gastronomique illustrative',atNantes:'À NANTES',heroCaption:['Un goût de Portugal.','Un moment à partager.'],discover:'Découvrir les assiettes',foodCredit:'Photographie gastronomique illustrative',cuisine:'Cuisine portugaise',band:['Francesinha','Morue & grillades','Pastéis de nata','À la portugaise'],
+  specialtiesTitle:'Le goût du Portugal.',specialtiesIntro:['Trois assiettes, trois façons','de faire le voyage.'],illustrative:'Visuel gastronomique illustratif',realFood:'Photographie du restaurant · selon disponibilité',previousDish:'Assiette précédente',nextDish:'Assiette suivante',slow:'Ralentir le mouvement',normal:'Vitesse normale',chooseDish:'Choisir une assiette',viewDish:'Voir',
+  dishes:[
+   {name:'La Francesinha',origin:'Porto',price:'19,95 €',alt:'Interprétation photographique d’une francesinha portugaise',copy:'Du pain, des viandes, du fromage fondu et cette sauce généreuse. Toute l’âme de Porto dans une assiette.'},
+   {name:'Pastel de nata',origin:'Lisbonne',price:'3,50 €',alt:'Interprétation photographique de pastéis de nata portugais',copy:'Le feuilletage qui craque. La crème qui fond. Une petite douceur portugaise pour prolonger le repas.'},
+   {name:'Poulet grillé',origin:'À la portugaise',price:'Plat du jour',alt:'Assiette de poulet grillé du restaurant',copy:'Une grillade dorée, à découvrir selon la sélection du jour. Demandez la proposition du moment à notre équipe.'},
+  ],
+  storyTitle:['On vient pour les saveurs.','On reste pour la table.'],storyCopy:'À La Cantine Portugaise, la morue côtoie les grillades et les spécialités de Porto. Une adresse au 57 Quai Magellan pour prendre le temps d’un déjeuner ou partager un dîner à Nantes.',facadeAlt:'La façade réelle de La Cantine Portugaise, au 57 Quai Magellan à Nantes',facadeCaption:'Notre maison, au bord de la Loire.',facadeCredit:'Photographie du restaurant · Facebook',storyAside:['Une table à Nantes.','Le Portugal dans l’assiette.'],visitLink:'Venir nous voir',
+  menuTitle:['À la carte,','à votre envie.'],menuIntro:'Les classiques portugais, les grillades et une formule pour le déjeuner. Choisissez ce qui vous fait plaisir.',sourceMenu:'Consulter la carte source',menuPhotoAlt:'Pastéis de nata, photographie gastronomique illustrative',menuPhotoCaption:'Le petit plaisir de fin de repas.',menuCategories:['Les spécialités','Les viandes','Le midi','Les douceurs'],categoryLabel:'Catégories de la carte',menuNote:'Carte indicative, selon les informations publiées en mars 2026. Prix et disponibilités à confirmer au restaurant.',
+  menuItems:[
+   [['Poulpe grillé','Une spécialité de la mer'],['Morue maison','La morue à la façon de la maison'],['Morue grillée','La tradition portugaise'],['Francesinha','Veau, chorizo, saucisses, jambon, fromage, œuf, sauce et frites']],
+   [['Bitoque','Bœuf, jambon, œuf au plat, riz, frites et salade'],['Brochette de picanha','Haricots noirs, riz et légumes'],['Brochette de filet mignon','Pommes de terre maison et légumes'],['Faux-filet','Avec légumes et frites']],
+   [['Plat du jour','Selon la sélection du jour'],['Entrée + plat','Formule déjeuner'],['Plat + dessert','Formule déjeuner'],['Entrée + plat + dessert','Formule complète']],
+   [['Pastel de nata','La petite tartelette portugaise'],['Gâteau aux biscuits','Douceur maison'],['Pudding','Un classique gourmand']],
+  ],
+  galleryTitle:['Une place','pour vous.'],galleryIntro:['Pour un déjeuner au bord de la Loire.','Pour un dîner aux saveurs du Portugal.'],roomAlt:'La salle réelle de La Cantine Portugaise à Nantes',roomDetailAlt:'Vue réelle de la salle et des tables du restaurant',roomCaption:'Notre maison, 57 Quai Magellan.',detailCaption:'On vous garde une place ?',
+  visitTitle:['Rendez-vous','quai Magellan.'],directions:'Ouvrir l’itinéraire',hoursTitle:'Nos horaires',days:['Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi','Dimanche'],closed:'Fermé',hoursNote:'À confirmer avant votre visite.',mapTitle:'Google Maps : La Cantine Portugaise, 57 Quai Magellan à Nantes',mapLanguage:'fr',country:'France',
+  footerTagline:['Le Portugal dans l’assiette.','Nantes dans le cœur.'],backTop:'Retour en haut',independent:'Concept indépendant non officiel',photoNote:'Photos du lieu : restaurant. Visuels de Francesinha et pastéis : créations illustratives.',
+ },
+ en:{
+  title:'La Cantine Portugaise — A taste of Portugal in Nantes',description:'La Cantine Portugaise in Nantes — a taste of Portugal by the Loire. 57 Quai Magellan.',
+  book:'Book a table',homeLabel:'La Cantine Portugaise, home',navLabel:'Main navigation',mobileNav:'Mobile navigation',nav:['Our place','The dishes','The menu','Find us'],openMenu:'Open menu',closeMenu:'Close menu',skip:'Skip to content',
+  languageLabel:'Change language',languageTitle:'Choose your language',languageHint:'Portugal, in your language.',languageChanged:'Site language: English.',
+  heroTitle:['Portugal.','At your table.'],heroIntro:['Francesinha, cod and pastéis de nata.','The flavours of Portugal, by the Loire.'],explore:'Explore the menu',heroAlt:'Portuguese francesinha, illustrative food photograph',atNantes:'IN NANTES',heroCaption:['A taste of Portugal.','A moment to share.'],discover:'Discover the dishes',foodCredit:'Illustrative food photograph',cuisine:'Portuguese cuisine',band:['Francesinha','Cod & grilled dishes','Pastéis de nata','Portuguese style'],
+  specialtiesTitle:'A taste of Portugal.',specialtiesIntro:['Three dishes, three ways','to make the journey.'],illustrative:'Illustrative food photograph',realFood:'Restaurant photograph · subject to availability',previousDish:'Previous dish',nextDish:'Next dish',slow:'Slow down the motion',normal:'Normal speed',chooseDish:'Choose a dish',viewDish:'View',
+  dishes:[
+   {name:'Francesinha',origin:'Porto',price:'€19.95',alt:'Illustrative photograph of a Portuguese francesinha',copy:'Bread, meats, melted cheese and a generous helping of sauce. The spirit of Porto on a plate.'},
+   {name:'Pastel de nata',origin:'Lisbon',price:'€3.50',alt:'Illustrative photograph of Portuguese custard tarts',copy:'Crisp pastry. Soft custard. A little Portuguese sweetness to linger over after your meal.'},
+   {name:'Grilled chicken',origin:'Portuguese style',price:'Dish of the day',alt:'Grilled chicken dish from the restaurant',copy:'Golden grilled chicken, depending on the day’s selection. Ask our team what is on offer today.'},
+  ],
+  storyTitle:['Come for the flavours.','Stay for the company.'],storyCopy:'At La Cantine Portugaise, cod shares the menu with grilled dishes and specialities from Porto. Find us at 57 Quai Magellan for an unhurried lunch or a shared dinner in Nantes.',facadeAlt:'The real façade of La Cantine Portugaise at 57 Quai Magellan in Nantes',facadeCaption:'Our place, by the Loire.',facadeCredit:'Restaurant photograph · Facebook',storyAside:['A table in Nantes.','Portugal on your plate.'],visitLink:'Come and find us',
+  menuTitle:['From the menu,','to your liking.'],menuIntro:'Portuguese classics, grilled dishes and a lunchtime set menu. Choose whatever takes your fancy.',sourceMenu:'View the original menu',menuPhotoAlt:'Portuguese custard tarts, illustrative food photograph',menuPhotoCaption:'A little treat to finish your meal.',menuCategories:['Specialities','Meat dishes','Lunch','Sweet treats'],categoryLabel:'Menu categories',menuNote:'Indicative menu based on information published in March 2026. Please confirm prices and availability with the restaurant.',
+  menuItems:[
+   [['Grilled octopus','A speciality from the sea'],['House-style cod','Cod prepared the house way'],['Grilled cod','A Portuguese tradition'],['Francesinha','Veal, chorizo, sausages, ham, cheese, egg, sauce and chips']],
+   [['Bitoque','Beef, ham, fried egg, rice, chips and salad'],['Picanha skewer','Black beans, rice and vegetables'],['Fillet skewer','House potatoes and vegetables'],['Sirloin steak','With vegetables and chips']],
+   [['Dish of the day','From the day’s selection'],['Starter + main','Lunch set menu'],['Main + dessert','Lunch set menu'],['Starter + main + dessert','Full set menu']],
+   [['Pastel de nata','The little Portuguese custard tart'],['Biscuit cake','A house-made sweet treat'],['Pudding','A sweet classic']],
+  ],
+  galleryTitle:['A place','for you.'],galleryIntro:['For lunch by the Loire.','For dinner with the flavours of Portugal.'],roomAlt:'The real dining room of La Cantine Portugaise in Nantes',roomDetailAlt:'Actual view of the restaurant dining room and tables',roomCaption:'Our place, 57 Quai Magellan.',detailCaption:'Shall we save you a seat?',
+  visitTitle:['See you at','Quai Magellan.'],directions:'Get directions',hoursTitle:'Opening hours',days:['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'],closed:'Closed',hoursNote:'Please confirm before your visit.',mapTitle:'Google Maps: La Cantine Portugaise, 57 Quai Magellan in Nantes',mapLanguage:'en',country:'France',
+  footerTagline:['Portugal on your plate.','Nantes in our hearts.'],backTop:'Back to top',independent:'Independent, unofficial concept',photoNote:'Venue photos: restaurant. Francesinha and custard tart images: illustrative creations.',
+ },
+ 'pt-PT':{
+  title:'La Cantine Portugaise — Sabores de Portugal em Nantes',description:'La Cantine Portugaise em Nantes — os sabores de Portugal, junto ao Loire. 57 Quai Magellan.',
+  book:'Reservar uma mesa',homeLabel:'La Cantine Portugaise, início',navLabel:'Navegação principal',mobileNav:'Navegação móvel',nav:['A nossa casa','Os pratos','A ementa','Onde estamos'],openMenu:'Abrir o menu',closeMenu:'Fechar o menu',skip:'Ir para o conteúdo',
+  languageLabel:'Mudar de idioma',languageTitle:'Escolha o seu idioma',languageHint:'Portugal, na sua língua.',languageChanged:'Idioma do sítio: português de Portugal.',
+  heroTitle:['Portugal.','À sua mesa.'],heroIntro:['Francesinha, bacalhau e pastéis de nata.','Os sabores de Portugal, junto ao Loire.'],explore:'Explorar a ementa',heroAlt:'Francesinha portuguesa, fotografia gastronómica ilustrativa',atNantes:'EM NANTES',heroCaption:['Um sabor de Portugal.','Um momento para partilhar.'],discover:'Descobrir os pratos',foodCredit:'Fotografia gastronómica ilustrativa',cuisine:'Cozinha portuguesa',band:['Francesinha','Bacalhau & grelhados','Pastéis de nata','À portuguesa'],
+  specialtiesTitle:'O sabor de Portugal.',specialtiesIntro:['Três pratos, três formas','de fazer a viagem.'],illustrative:'Fotografia gastronómica ilustrativa',realFood:'Fotografia do restaurante · sujeita a disponibilidade',previousDish:'Prato anterior',nextDish:'Prato seguinte',slow:'Abrandar o movimento',normal:'Velocidade normal',chooseDish:'Escolher um prato',viewDish:'Ver',
+  dishes:[
+   {name:'A Francesinha',origin:'Porto',price:'19,95 €',alt:'Fotografia ilustrativa de uma francesinha portuguesa',copy:'Pão, carnes, queijo derretido e aquele molho generoso. Toda a alma do Porto num prato.'},
+   {name:'Pastel de nata',origin:'Lisboa',price:'3,50 €',alt:'Fotografia ilustrativa de pastéis de nata portugueses',copy:'O folhado estaladiço. O creme que se desfaz na boca. Um pequeno doce português para prolongar a refeição.'},
+   {name:'Frango grelhado',origin:'À portuguesa',price:'Prato do dia',alt:'Prato de frango grelhado do restaurante',copy:'Um grelhado dourado, consoante a seleção do dia. Pergunte à nossa equipa qual é a proposta de hoje.'},
+  ],
+  storyTitle:['Vem-se pelos sabores.','Fica-se à mesa.'],storyCopy:'Na Cantine Portugaise, o bacalhau partilha a ementa com os grelhados e as especialidades do Porto. Uma morada no 57 Quai Magellan para um almoço sem pressas ou um jantar em boa companhia, em Nantes.',facadeAlt:'A fachada real do restaurante La Cantine Portugaise, no 57 Quai Magellan, em Nantes',facadeCaption:'A nossa casa, junto ao Loire.',facadeCredit:'Fotografia do restaurante · Facebook',storyAside:['Uma mesa em Nantes.','Portugal no prato.'],visitLink:'Venha visitar-nos',
+  menuTitle:['Na ementa,','ao seu gosto.'],menuIntro:'Os clássicos portugueses, os grelhados e um menu de almoço. Escolha o que lhe apetece.',sourceMenu:'Consultar a ementa original',menuPhotoAlt:'Pastéis de nata, fotografia gastronómica ilustrativa',menuPhotoCaption:'O pequeno prazer no fim da refeição.',menuCategories:['Especialidades','Carnes','Ao almoço','Doces'],categoryLabel:'Categorias da ementa',menuNote:'Ementa indicativa, com base na informação publicada em março de 2026. Confirme os preços e a disponibilidade junto do restaurante.',
+  menuItems:[
+   [['Polvo grelhado','Uma especialidade do mar'],['Bacalhau da casa','O bacalhau à moda da casa'],['Bacalhau grelhado','A tradição portuguesa'],['Francesinha','Vitela, chouriço, salsichas, fiambre, queijo, ovo, molho e batatas fritas']],
+   [['Bitoque','Carne de vaca, fiambre, ovo estrelado, arroz, batatas fritas e salada'],['Espetada de picanha','Feijão preto, arroz e legumes'],['Espetada de lombinho','Batatas da casa e legumes'],['Bife da vazia','Com legumes e batatas fritas']],
+   [['Prato do dia','Consoante a seleção do dia'],['Entrada + prato','Menu de almoço'],['Prato + sobremesa','Menu de almoço'],['Entrada + prato + sobremesa','Menu completo']],
+   [['Pastel de nata','O pequeno pastel português'],['Bolo de bolacha','Doce da casa'],['Pudim','Um clássico guloso']],
+  ],
+  galleryTitle:['Um lugar','para si.'],galleryIntro:['Para um almoço junto ao Loire.','Para um jantar com os sabores de Portugal.'],roomAlt:'A sala real do restaurante La Cantine Portugaise, em Nantes',roomDetailAlt:'Vista real da sala e das mesas do restaurante',roomCaption:'A nossa casa, 57 Quai Magellan.',detailCaption:'Guardamos-lhe um lugar?',
+  visitTitle:['Encontramo-nos no','Quai Magellan.'],directions:'Ver o percurso',hoursTitle:'O nosso horário',days:['Segunda-feira','Terça-feira','Quarta-feira','Quinta-feira','Sexta-feira','Sábado','Domingo'],closed:'Encerrado',hoursNote:'Confirme antes da sua visita.',mapTitle:'Google Maps: La Cantine Portugaise, 57 Quai Magellan, em Nantes',mapLanguage:'pt',country:'França',
+  footerTagline:['Portugal no prato.','Nantes no coração.'],backTop:'Voltar ao início',independent:'Conceito independente não oficial',photoNote:'Fotografias do espaço: restaurante. Imagens de francesinha e pastéis: criações ilustrativas.',
+ },
+};
