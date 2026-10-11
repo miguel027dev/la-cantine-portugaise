@@ -1,0 +1,4 @@
+# Visual direction
+Contemporary Portuguese culinary journal: immersive food photography, midnight ink (#111e2c), cobalt (#223eaa), warm ivory (#f2eee5) and tomato coral (#fa6c50). Literata display typography and Manrope reading typography. Full bleed opening, large editorial spreads and ruled menu rows. Photography stays rectangular; no fake badges, awards or testimonials.
+
+Motion thesis: selecting a specialty lifts and turns the photographic spread like a menu page; the title changes in sync. A slow-motion control lets the visitor slow this authored moment. Quick spring feedback on controls; no perpetual animation. Hero typography enters once through its own line masks. Reduced motion replaces all spatial movement with crossfades. Menu updates preserve focus and remain interruptible. No React state updates per animation frame.
